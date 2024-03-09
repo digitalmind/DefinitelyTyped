@@ -26,7 +26,7 @@ type PlanPaymentType = "RECURRING";
 
 type SubscriptionPricingPlanInterval = "DAILY" | "WEEKLY" | "MONTHLY" | "YEARLY";
 
-type SubscriptionUpgradePeriod = "NOW";
+type SubscriptionUpgradePeriod = "NOW" | "NEXT_PERIOD";
 
 type SubscriptionStatus = "EXPIRED" | "UNPAID" | "CANCELED" | "ACTIVE" | "PENDING" | "UPGRADED";
 
